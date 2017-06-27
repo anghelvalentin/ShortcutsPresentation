@@ -1,49 +1,185 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+    <title>Shorcuts Presentation</title>
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css">
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Shorcuts Presentation</section>
-				<section>Javascript VS Java</section>
-			</div>
-		</div>
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-		</script>
-	</body>
+</head>
+<body>
+<div class="reveal">
+    <div class="slides">
+        <section><h1>Shorcuts Presentation</h1></section>
+        <section>
+            <section><h2>Text Shortcuts</h2></section>
+            <section data-markdown>
+                ##### CUT (Delete the line and save it in the clipboard)
+                # CTRL+X
+            </section>
+            <section>
+                Delete the character after the bar
+                <h1>Delete</h1>
+            </section>
+            <section>
+                Move the cursor one word at a time
+                <h1>CTRL</h1>
+            </section>
+            <section>
+                Move the cursor at the beginning of the line or the end
+                <h1>HOME OR END</h1>
+            </section>
+            <section>
+                Move to the beginning of the file or to the end
+                <h1>CTRL+HOME OR CTRL+END</h1>
+            </section>
+            <section>
+                Delete one word to the left of the cursor
+                <h1>CTRL+Backspace</h1>
+            </section>
+            <section>
+                Delete one word to the right of the cursor
+                <h1>CTRL+DELETE</h1>
+            </section>
+        </section>
+        <section>
+            <section><h2>Google Chrome(IE) Shortcuts</h2></section>
+            <section data-markdown>
+                ##### Open a new tab
+                # CTRL+T
+            </section>
+            <section data-markdown>
+                ##### Close a tab
+                # CTRL+W
+            </section>
+            <section data-markdown>
+                ##### Open a link in a new tab
+                # CTRL+CLICK
+            </section>
+            <section data-markdown>
+                ##### Open a link in a new tab and switch to that tab
+                # CTRL+SHIFT-CLICK
+            </section>
+            <section data-markdown>
+                ##### Open a new instace of Google Chrome
+                # CTRL+N
+            </section>
+            <section data-markdown>
+                ##### Open the last tab that you closed
+                # CTRL+SHIFT-T
+            </section>
+            <section data-markdown>
+                ##### Select the address bar
+                # CTRL+L
+            </section>
+        </section>
+
+        <section>
+            <section>Visual Studio Shortcuts</section>
+            <section>
+                Comment code
+                <h1>CTRL+K,CTRL+C</h1>
+            </section>
+            <section>
+                Uncomment code
+                <h1>CTRL+K, CTRL+U</h1>
+            </section>
+            <section data-markdown>
+                Bookmark line
+                # CTRL+K, CTRL+K
+                Next bookmark
+                # CTRL+K, CTRL+N
+            </section>
+            <section>
+                Close tab
+                # CTRL+F4
+            </section>
+            <section>
+                Find and replace
+                # CTRL+H
+            </section>
+        </section>
+
+        <section>
+            <section><h2>Useful tools/extensions for Visual Studio</h2></section>
+            <section><h3>Go to definition using CTRL+CLICK (Extension)</h3>
+                <a href="https://marketplace.visualstudio.com/items?itemName=NoahRichards.GoToDefinition">Go to definition</a>
+            </section>
+            <section><h3>Multi Edit Mode using alt (Extension)</h3>
+                <a href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.MultiEditMode">Multi edit mode</a>
+                <br/>
+                <img src="https://github.com/madskristensen/MultiEdit/raw/master/art/screenshot.png">
+            </section>
+        </section>
+
+        <section>
+            <section><h2>Snippets</h2></section>
+            <section><h1>Ctor</h1>Creates an empty constructor<img src="images/ctor.png"> <img
+                    src="images/constructor.png"></section>
+            <section><h1>Prop</h1>Creates an auto property</section>
+            <section><h1>SVM</h1>Creates a static void main method</section>
+        </section>
+
+        <section>
+            <section>
+                Javascript VS Java
+            </section>
+            <section>Javascript este un limbaj folosit in browser in special, fiind folosit pe partea de client
+            </section>
+            <section>Demo</section>
+            <section>Java este un limbaj folosit pentru aplicatii desktop sau pentru partea de server</section>
+            <section>Java is to JavaScript as Car is to Carpet
+                <img src="https://raduenuca.github.io/devschool-slides/images/minions/evil-minion.png"/></section>
+        </section>
+        <section>Daca v-a placut/nu v-a placut astept sugestii si imbunatatiri. Daca aveti  </section>
+        <section>
+            Prezentari viitoare
+            <ul>
+                <li>LINQ (Language Integrated Query)</li>
+                <li>EntityFramework</li>
+                <li>...</li>
+            </ul>
+        </section>
+        <section>Prezentarea o gasiti pe <a href="https://anghelvalentin.github.io/ShortcutsPresentation/">https://anghelvalentin.github.io/ShortcutsPresentation/</a>
+        </section>
+    </div>
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+    // More info about config & dependencies:
+    // - https://github.com/hakimel/reveal.js#configuration
+    // - https://github.com/hakimel/reveal.js#dependencies
+    Reveal.initialize({
+        dependencies: [
+            {src: 'plugin/markdown/marked.js'},
+            {src: 'plugin/markdown/markdown.js'},
+            {src: 'plugin/notes/notes.js', async: true},
+            {
+                src: 'plugin/highlight/highlight.js', async: true, callback: function () {
+                hljs.initHighlightingOnLoad();
+            }
+            }
+        ]
+    });
+</script>
+</body>
 </html>
